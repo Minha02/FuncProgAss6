@@ -54,20 +54,20 @@ object Ass6q1{
     product3.id -> product3
     )
 
-    println ("Retrieve all product names")
+    println ("\nRetrieve all product names")
     println(getProductNames(inventory1))  
 
-    println("Calculate total value of all products")
+    println("\nCalculate total value of all products")
     println(getTotalValue(inventory1))
 
-   println("Check if inventory is empty")
+    println("\nCheck if inventory is empty")
     println(isEmpty(inventory1))
 
-    println("Merge two inventories")
+    println("\nMerge two inventories")
     val mergedInventory = mergeInventory(inventory1, inventory2)
     println(mergedInventory)                
 
-    println("Check if a product with a specific ID exists and print its details")
+    println("\nCheck if a product with a specific ID exists and print its details")
     printProductDetails(mergedInventory, "2")  // Output: Product ID: 2, Name: Gadget, Quantity: 250, Price: 5.0
     printProductDetails(mergedInventory, "4")  // Output: Product with ID 4 does not exist.
 
