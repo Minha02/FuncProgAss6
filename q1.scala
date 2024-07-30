@@ -50,7 +50,7 @@ object Ass6q1{
     )
 
     val inventory2: Inventory = Map(
-    product2.id -> product2.copy(quantity = 50, price = 4.50), // Same ID, different quantity and price
+    product2.id -> product2.copy(quantity = 50, price = 4.50),
     product3.id -> product3
     )
 
@@ -68,8 +68,8 @@ object Ass6q1{
     println(mergedInventory)                
 
     println("\nCheck if a product with a specific ID exists and print its details")
-    printProductDetails(mergedInventory, "2")  // Output: Product ID: 2, Name: Gadget, Quantity: 250, Price: 5.0
-    printProductDetails(mergedInventory, "4")  // Output: Product with ID 4 does not exist.
+    printProductDetails(mergedInventory, "2") 
+    printProductDetails(mergedInventory, "4")  
 
     }
 
